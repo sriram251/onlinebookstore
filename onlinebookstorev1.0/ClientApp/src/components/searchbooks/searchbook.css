@@ -1,0 +1,116 @@
+.searchcolum {
+  height: 350px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-image: url(https://images.unsplash.com/photo-1559133082-d15e8502d064?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: -6px 14px 20px 0px white;
+}
+.searchbar {
+  margin: auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  width: 50%;
+  font-family: poppins, sans-serif;
+  flex-direction: row;
+}
+.selectinput {
+  padding: 5px 3px;
+  margin-right: 10px;
+}
+.Searchinput {
+  display: inline-block;
+  padding: 15px;
+  margin-right: 10px;
+  border-radius: 0.5px;
+}
+.selectoption {
+  padding: 0 30px 0 10px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  border-top: rgb(250, 249, 249) solid 1px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  pointer-events: none;
+  order: 2;
+  z-index: 1;
+  transition: background 0.4s ease-in-out;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.selectoption:hover {
+  background: #666;
+}
+.selectinput:focus-visible {
+  border: none;
+  box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+.searchbookcontainer {
+  width: 95%;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 5px;
+
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+.searchbutton {
+  background: #4272d7;
+  white-space: nowrap;
+  border-radius: 0.5px;
+  transition: all 0.2s ease-out, color 0.2s ease-out;
+  border: 0;
+  cursor: pointer;
+}
+.searchreasultcoverimage {
+  display: flex;
+  justify-content: center;
+}
+.searchreasultvalue {
+  margin-top: 5px;
+  font-size: 15px;
+}
+.searchbooksresult {
+  margin: 5px 15px;
+  border: 1px solid white;
+  border-radius: 4px;
+  background-color: white;
+}
+.searchpagespinner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  margin: auto;
+}
+.searchbutton:hover {
+  background: #2d62d3;
+}
+@media screen and (max-width: 700px) {
+  .searchbar {
+    flex-direction: column;
+  }
+  .Searchinput {
+    width: 100%;
+    margin: 0;
+  }
+  .selectinput {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .searchreasultvalue {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .searchbar {
+    flex-direction: column;
+    width: 80%;
+  }
+}

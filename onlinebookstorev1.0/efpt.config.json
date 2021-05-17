@@ -1,0 +1,52 @@
+﻿{
+   "CodeGenerationMode": 1,
+   "ContextClassName": "BookstoreContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": null,
+   "ProceduresReturnList": false,
+   "ProjectRootNamespace": "onlinebookstorev1._0",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Authers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AuthersBook]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[books]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CoverImages]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SampleDocs]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "DESKTOP-H71JVGO\\MSSQLSERVER01.Bookstore",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSpatial": false
+}

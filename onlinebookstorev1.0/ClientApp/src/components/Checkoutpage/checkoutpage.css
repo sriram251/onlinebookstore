@@ -1,0 +1,24 @@
+.checkoutpagespinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.checkoutCoverimage {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  font: 15px/28px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial,
+    Verdana, sans-serif;
+  color: #484641;
+}
+
+.checkoutpage {
+  background-color: white;
+  margin: 25px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.checkoutuserdetail {
+  border-left: 1px solid blueviolet;
+}

@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:700);
+.imagescrollerbanner {
+  height: 280px;
+  margin: 10px 2px;
+  box-shadow: 2px 0px 10px 7px rgb(255 255 255 / 20%);
+}
+.scrollerimages {
+  height: 280px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.Homepage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+.contents {
+  width: 100%;
+  display: block;
+}
+.coverimage {
+  height: 200px;
+
+  position: relative;
+
+  overflow: hidden;
+}
+.individualbook:hover {
+  box-shadow: 0px 0px 7px 2px #c5c5c5;
+}
+.individualbook {
+  margin-bottom: 35px;
+  display: inline-block;
+  margin-left: 20px;
+  text-align: center;
+}
+.categoryheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.categoryheader > h4 {
+  color: #111111;
+
+  font-weight: 600;
+
+  text-transform: uppercase;
+
+  position: relative;
+
+  display: inline-block;
+}
+.categoryheader > h4::after {
+  position: absolute;
+
+  left: 0;
+
+  bottom: -4px;
+
+  height: 2px;
+
+  width: 70px;
+
+  background: #ca1515;
+
+  content: "";
+}
+
+.individulacatogory {
+  margin: 5px 5px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+}
+.imagecontainer {
+  display: flex;
+  justify-content: space-around;
+}
+.bookcontainer {
+  display: flex;
+  overflow-x: scroll;
+  margin: 15px 0px;
+  padding: 10px 2px;
+}
+.bookcontainer::-webkit-scrollbar {
+  width: 2px;
+  display: none;
+}
+.bookdetails {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 22px;
+}
+@media screen and (max-width: 500px) {
+  .Homepage {
+    width: 95%;
+  }
+  .coverimage {
+    height: 100px;
+  }
+
+  .categoryheader > h4 {
+    font-size: 15px;
+  }
+}

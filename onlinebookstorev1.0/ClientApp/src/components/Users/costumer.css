@@ -1,0 +1,42 @@
+.profileimageholder {
+  display: flex;
+  justify-content: center;
+}
+.PeopleAddressesContainer {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #7da8df;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  width: 100%;
+  padding: 5px;
+  margin: 5px 2px;
+}
+.constumerdatas {
+  display: flex;
+  justify-content: space-evenly;
+}
+.costumerpage {
+  margin: 7px 30px;
+  background: rgb(233, 233, 233);
+  border-radius: 10px;
+  padding: 10px;
+  height: 712px;
+  background: linear-gradient(
+    90deg,
+    rgba(233, 233, 233, 1) 0%,
+    rgba(221, 249, 246, 0.9415967070421919) 43%,
+    rgba(219, 237, 241, 1) 100%
+  );
+}
+.userdetailcontainer {
+  margin-left: 5px;
+  border-right: 1px solid black;
+}
+
+.addresscontainer {
+  margin: 10px;
+}
+.addaddressbutton {
+  margin: auto;
+}
